@@ -1,0 +1,113 @@
+.currency-card {
+  width: 290.74px;
+  height: 400px;
+  position: relative;
+}
+
+.currency-card__logo-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(100px);
+  transform: translateY(50%);
+}
+
+.currency-details__container {
+  height: 350px;
+  width: 290.74px;
+  background-image: url(../../assets/card-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 71.08px;
+  padding-left: 20px;
+  padding-right: 28.74px;
+  padding-bottom: 11px;
+}
+
+.currency-details__heading {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 258%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.currency-details__price-container {
+  position: relative;
+  width: 100%;
+  margin-top: 8.5px;
+  padding: 4.5px 1;
+  border-radius: 17px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 194%;
+  text-align: center;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(236, 240, 255, 0.1) 0%,
+    rgba(59, 63, 87, 0) 100%
+  );
+  background: linear-gradient(0deg, #14172b, #14172b),
+    linear-gradient(180deg, rgba(236, 240, 255, 0.1) 0%, rgba(59, 63, 87, 0) 100%);
+}
+
+.currencyChange {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 258%;
+}
+
+.popular-pairs__container {
+  width: 121.75px;
+  height: 40px;
+  margin: auto;
+  padding: 9px 15px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  background: #14172b;
+  border-radius: 29.5px;
+}
+
+.popular-pairs__img {
+  width: 22px;
+  height: 22px;
+}
+
+.green {
+  color: #00ffa3;
+}
+
+.red {
+  color: #ff4d4d;
+}
+
+.BTC {
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+}
+
+.SOL {
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(220, 31, 255, 0.1) 100%);
+}
+
+.ETH {
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(237, 240, 244, 0.1) 100%);
+}
+
+.BUSD {
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+}
+
+.SHIB {
+  background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(228, 45, 4, 0.1) 100%);
+}

@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Tomorrow', sans-serif;
 }
 
-body {
+#root {
   width: 100vw;
-  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  background: #14172b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-text {
+  color: #ecf0ff;
+  opacity: 0.9;
+}
+
+.secondary-text {
+  color: #737bae;
+  opacity: 0.9;
+}
+
+.tertiary-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 258%;
+  text-align: center;
+  color: #5a5f7d;
+  opacity: 0.9;
 }
